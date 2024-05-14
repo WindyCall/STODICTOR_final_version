@@ -1,0 +1,467 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.HeaderBox {
+  background-color: blue;
+  flex-basis: 100%;
+  height: 10vh;
+  width: 1582px;
+  margin-left: -8px;
+  margin-top: -10px;
+  display: flex;
+  position: fixed;
+}
+
+.MainpageBox {
+  margin-top: -640px;
+  line-height: 2;
+  flex-basis: 80%;
+  flex-grow: 0;
+  left: 200px;
+  margin-left: 300px;
+  width: 1200px;
+}
+
+.navbar {
+  background-color: #060b26;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #060b26;
+  width: 200px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  top: 0;
+  left: -100%;
+}
+
+.nav-menu.active {
+  top: 72.3px;
+  left: 0%;
+  height: 640px;
+  transition: 350ms;
+  width: 250px;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  width: 340px;
+  height: 80px;
+  margin-left: -20px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 2px;
+  left: 40px;
+}
+
+.nav-text a:hover {
+  background-color: darkviolet;
+  margin-left: -30px;
+  transition: 300ms;
+}
+
+.nav-menu-items {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+.PageHeader {
+}
+
+.BarChartBigBox {
+  margin-left: 0;
+  left: 0;
+  margin-bottom: -10%;
+}
+
+.StockText {
+  font-size: 35px;
+  margin-top: -30px;
+  margin-bottom: -8px;
+}
+
+.StockItemBox {
+}
+
+.StockItemBox a {
+}
+
+.StockItemBox a:hover {
+  background-color: red;
+}
+
+.LoginPage {
+  align-items: center;
+  margin-left: 40px;
+}
+
+.Account {
+}
+
+.SigninButton {
+  height: 40px;
+  width: 290px;
+}
+
+.SignupButton {
+  width: 100px;
+}
+
+.SignText {
+  align-items: center;
+  margin-left: 105px;
+  margin-botton: 20px;
+  font-size: 24px;
+}
+
+.Tittle {
+  align-items: center;
+  margin-left: 650px;
+  font-size: 50px;
+  text-decoration-color: blueviolet;
+  color: brown;
+}
+
+.TitleStodictor {
+  font-size: 35px;
+  color: white;
+}
+
+.BackToLoginButton {
+  margin-left: 70px;
+  width: 150px;
+}
+
+.ResetText {
+  margin-left: 68px;
+  font-size: 24px;
+}
+
+.BackToLoginFromReset {
+  margin-left: 55px;
+  font-size: 14px;
+  width: 180px;
+}
+
+.LoginBox {
+  flex-grow: 0;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 580px;
+  width: 400px;
+  height: 400px;
+}
+
+.SignupBox {
+  flex-grow: 0;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 580px;
+  width: 400px;
+  height: 500px;
+}
+
+.DashBoardPictureBox {
+  flex-grow: 0;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 350px;
+  height: 350px;
+}
+
+.DashboardPictures {
+  padding: 10px 10px 10px 10px;
+  height: 350px;
+  width: 350px;
+  margin-top: -20px;
+  margin-left: -18px;
+}
+
+.DashboardLink {
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+.TradeLink {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.BackToDashboard {
+  margin-top: 10px;
+  margin-left: -20px;
+  width: 200px;
+  text-decoration: none;
+}
+
+.TradeType {
+  font-size: 35px;
+  margin-left: 400px;
+  color: green;
+}
+
+.ItemSelection {
+  font-size: 35px;
+  margin-left: 420px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  color: peru;
+}
+
+.RecordAdder {
+  font-size: 35px;
+  margin-left: 460px;
+  margin-top: 0px;
+  color: rgb(165, 21, 146);
+}
+
+.RecordAdderBox {
+  flex-grow: 0;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 350px;
+  margin-top: 0px;
+  width: 450px;
+  height: 580px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.RecordAdderText {
+  margin-left: 20px;
+}
+
+.InsideRecordAdderBox {
+  margin-top: -20px;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+.ConfirmTrade {
+  margin-left: 60px;
+}
+
+.Predict {
+  font-size: 40px;
+  margin-left: 500px;
+  color: darkolivegreen;
+}
+
+.StartPredicting {
+  margin-left: 260px;
+  width: 600px;
+  height: 60px;
+  font-size: 28px;
+}
+
+.ViewPredictingResult {
+  margin-left: 260px;
+  width: 600px;
+  height: 60px;
+  font-size: 28px;
+}
+
+.WaitForCalcuation {
+  font-size: 30px;
+  margin-left: 450px;
+}
+
+.PredictResult {
+  font-size: 36px;
+  margin-left: 460px;
+  color: sienna;
+}
+
+.StockTable {
+  margin-left: -30px;
+}
+
+.OverallHistory {
+  font-size: 35px;
+  margin-top: -30px;
+  margin-left: 440px;
+  margin-bottom: 10px;
+  color: indianred;
+}
+
+.Profile {
+  font-size: 35px;
+  margin-left: 500px;
+  color: indianred;
+}
+
+.ProfilePhoto {
+  padding: 10px 10px 10px 10px;
+  height: 180px;
+  width: 180px;
+  margin-left: 130px;
+}
+
+.ProfileBox {
+  font-size: 18px;
+  flex-grow: 0;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 330px;
+  margin-top: 0px;
+  width: 450px;
+  height: 600px;
+  color: black;
+}
+
+.ProfileInput {
+  margin-left: 8px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.avatar {
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  height: 180px;
+  width: 180px;
+  margin-left: 130px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.LittleAvatar {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+}
+
+.vl {
+  border-left: 4px solid black;
+  height: 500px;
+  margin-left: 480px;
+  margin-top: -350px;
+}
+
+.LineForMargin {
+  width: 1250px;
+  margin-left: -40px;
+}
+
+.AboutUs {
+  font-size: 80px;
+  margin-left: 75px;
+  margin-top: 200px;
+}
+
+.AboutMotivation {
+  width: 680px;
+  margin-left: 550px;
+  margin-top: -550px;
+  font-size: 16px;
+}
+
+.AboutDescription {
+  width: 680px;
+  margin-left: 550px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.AboutGuide {
+  width: 680px;
+  margin-left: 550px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.AboutSubtitle {
+  margin-left: 260px;
+  font-size: 17px;
+}
+
+.AboutBox {
+  font-size: 18px;
+  flex-grow: 0;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  margin-left: -50px;
+  margin-top: 0px;
+  width: 1286px;
+  height: 640px;
+  color: black;
+  background-color: darksalmon;
+}
+
+.AverageValue {
+  margin-left: 1000px;
+  font-size: 16px;
+}
+
+.ErrorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.ModalText {
+  font-size: 20px;
+  margin-left: 0px;
+}
+
+.UpdateInput {
+  font-size: 18px;
+}
+
+.UpdateRecord {
+  margin-top: -13px;
+  font-size: 24px;
+}
+
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}
+
+.TotalCash {
+  margin-left: 850px;
+  margin-top: -80px;
+}
